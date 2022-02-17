@@ -17,10 +17,10 @@ contract DoodleNFT is ERC721URIStorage {
 
     _safeMint(msg.sender, newItemId);
 
-    _setTokenURI(newItemId, "https://jsonkeeper.com/b/NLG7");
+    _setTokenURI(newItemId, "https://jsonkeeper.com/b/B3BO");
 
     console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
-    
+
     _tokenIds.increment();
   }
 }
